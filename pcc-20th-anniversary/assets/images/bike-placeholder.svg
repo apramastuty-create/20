@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <linearGradient id="bikeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <!-- wheels -->
+  <circle cx="17" cy="45" r="9" stroke="url(#bikeGrad)" fill="none"/>
+  <circle cx="47" cy="45" r="9" stroke="url(#bikeGrad)" fill="none"/>
+  <!-- spokes hint -->
+  <circle cx="17" cy="45" r="3" fill="#0f172a"/>
+  <circle cx="47" cy="45" r="3" fill="#0f172a"/>
+  <!-- frame -->
+  <path d="M17 45 L27 27 L45 37 L47 45" stroke="url(#bikeGrad)" fill="none"/>
+  <path d="M27 27 L23 19" stroke="url(#bikeGrad)" fill="none"/>
+  <path d="M23 19 L27 19 L27 23" stroke="url(#bikeGrad)" fill="none"/>
+  <!-- seat -->
+  <path d="M23 19 L21 15" stroke="url(#bikeGrad)" fill="none" stroke-linecap="butt"/>
+  <!-- handlebar -->
+  <path d="M45 37 L48 33 L45 29" stroke="url(#bikeGrad)" fill="none"/>
+  <circle cx="48" cy="33" r="1.5" fill="#0f172a"/>
+</svg>

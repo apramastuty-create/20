@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PCC | Pondok Kelapa Cycling Community — 20th Anniversary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">PCC<span>20</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#cerita">Cerita</a></li>
+        <li><a href="admin.html" class="btn-admin">Admin</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <svg class="hero-bike" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="rgba(14,165,233,0.5)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="17" cy="45" r="9"/>
+        <circle cx="47" cy="45" r="9"/>
+        <path d="M17 45 L27 27 L45 37 L47 45"/>
+        <path d="M27 27 L23 19"/>
+        <path d="M23 19 L27 19 L27 23"/>
+        <path d="M23 19 L21 15" stroke-linecap="butt"/>
+        <path d="M45 37 L48 33 L45 29"/>
+        <circle cx="48" cy="33" r="1.5" fill="#0f172a"/>
+      </svg>
+    </div>
+    <div class="hero-content">
+      <span class="badge">20th Anniversary</span>
+      <h1>Pondok Kelapa<br>Cycling Community</h1>
+      <p>Menjemput dua dekade persahabatan, para jalanan, dan kenangan di atas sepeda.</p>
+      <a href="#galeri" class="btn btn-primary">Lihat Galeri</a>
+      <a href="#cerita" class="btn btn-outline">Baca Cerita</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Statistik -->
+  <section class="stats">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-number" data-target="20">0</span>
+        <span class="stat-label">Tahun</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="48">0</span>
+        <span class="stat-label">Anggota Aktif</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="1200">0</span>
+        <span class="stat-label">KM Tempuh</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="80">0</span>
+        <span class="stat-label">Kegiatan</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="tentang">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tentang PCC</h2>
+        <div class="section-line"></div>
+        <p class="section-desc">Komunitas sepeda yang lahir dari kebersamaan warga Pondok Kelapa. Sejak 2005, kami berkumpul setiap minggu untuk menjalani jalan, menjaga kesehatan, dan mempererat tali silaturahmi di antarasepedawan.</p>
+      </div>
+      <div class="tentang-grid">
+        <div class="tentang-img">
+          <img src="assets/images/banner1.svg" alt="PCC Cycling" class="img-round" loading="lazy" />
+        </div>
+        <div class="tentang-text">
+          <h3>Komunitas yang Berpegang Pada Sepeda</h3>
+          <p>PCC bukan sekadar komunitas sepeda. Kami adalah keluarga yang saling peduli, menuntun pemula, dan menyambut setiap angotan dengan tangan terbuka. Dari pagi hari di lapangan hingga petang di atas jalan tol pantai, setiap pedalan adalah cerita.</p>
+          <ul class="features">
+            <li><span class="check">✓</span> Ride mingguan setiap Sabtu &amp; Minggu</li>
+            <li><span class="check">✓</span> Pelatihan keselamatan bersepeda untuk pemula</li>
+            <li><span class="check">✓</span> Acara sosial &amp; bakti sosial rutin</li>
+            <li><span class="check">✓</span> Dokumentasi foto &amp; cerita tiap kegiatan</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="galeri">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Galeri 20 Tahun</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Foto diinisialisasi oleh JS dari data/posts.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Cerita -->
+  <section id="cerita" class="cerita">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Cerita Kegiatan</h2>
+        <div class="section-line"></div>
+        <p class="section-desc">Kisah para anggota PCC dari waktu ke waktu, dikumpulkan untuk dijadikan arsip komunitas.</p>
+      </div>
+      <div class="stories-grid" id="storiesGrid">
+        <!-- Cerita diinisialisasi oleh JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">PCC<span>20</span></a>
+        <p>Pondok Kelapa Cycling Community — Merayakan 20 Tahun Persahabatan di Atas Sepeda.</p>
+      </div>
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Strava">Strava</a>
+        <a href="#" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+      <div class="footer-copy">
+        &copy; <span id="year"></span> Pondok Kelapa Cycling Community. Dibuat untuk dihosting di Netlify.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

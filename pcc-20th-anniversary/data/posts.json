@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Ride Perdana 20 Tahun PCC",
+    "date": "2025-09-06",
+    "cerita": "Sambutan hari pertama anniversary ke-20. Ratusan sepedawan berkumpul di lapangan Pondok Kelapa pada pagi hari yang cerah untuk jalur pantai menuju Pantai Indah Kapuk.",
+    "image": "assets/images/bike-placeholder.svg",
+    "tipe": "Anniversary"
+  },
+  {
+    "id": "2",
+    "title": "Sunset Ride di Jalan Tol Pantai",
+    "date": "2025-08-23",
+    "cerita": "Ride sore menyusuri jalan tol pantai dengan angin laut menyemangati. Foto bersama di simpang tol sebelum matahari terbenam di belakang horizon.",
+    "image": "assets/images/bike-placeholder.svg",
+    "tipe": "Ride Mingguan"
+  },
+  {
+    "id": "3",
+    "title": "Bakti Sosial Bersama Anak Sepeda",
+    "date": "2025-07-12",
+    "cerita": "Kegiatan bakti sosial rutin PCC. Kami membagikan sepeda bekas dan helm kepada anak-anak di sekitar Pondok Kelapa yang tertarik bersepeda.",
+    "image": "assets/images/bike-placeholder.svg",
+    "tipe": "Sosial"
+  }
+]
